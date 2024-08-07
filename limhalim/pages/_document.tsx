@@ -21,15 +21,18 @@ export default function Document() {
 
       <link
         href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Noto+Sans+KR:wght@500&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap"
-        rel="stylesheet"
+        rel="preload"
+        as="style"
       />
       <link
         href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap"
-        rel="stylesheet"
+        rel="preload"
+        as="style"
       />
       <link
         href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css"
-        rel="stylesheet"
+        rel="preload"
+        as="style"
       />
       <body>
         <Main />
